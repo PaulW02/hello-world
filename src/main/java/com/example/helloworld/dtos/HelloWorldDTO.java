@@ -1,5 +1,8 @@
 package com.example.helloworld.dtos;
 
+/**
+ * DTO
+ */
 public class HelloWorldDTO {
     private String message;
     public HelloWorldDTO(String message) {
