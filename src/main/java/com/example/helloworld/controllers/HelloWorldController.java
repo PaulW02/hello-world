@@ -13,6 +13,11 @@ public class HelloWorldController {
     @Autowired
     private HelloWorldService helloWorldService;
 
+
+    /**
+     *
+     * @return hello world
+     */
     @RequestMapping("/hello")
     public ResponseEntity<HelloWorldDTO> getHelloWorld() {
         HelloWorldDTO helloWorldDTO = helloWorldService.getHelloWorld();
